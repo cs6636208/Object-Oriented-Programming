@@ -72,7 +72,7 @@ class RegularPolygon {
     }
 }
 
-public class RegularPolygonTest {
+public class Lab2no8 {
     public static void main(String[] args) {
         RegularPolygon regularPolygon1 = new RegularPolygon();
         RegularPolygon regularPolygon2 = new RegularPolygon(6, 4);

@@ -1,4 +1,4 @@
-public class Test3 {
+public class Lab2no3 {
     public static void main(String[] args) {
         Count myCount = new Count();
         int times = 0;

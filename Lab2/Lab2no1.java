@@ -48,7 +48,7 @@ class Complex1 {
 
 }
 
-public class ComplexTest1 {
+public class Lab2no1 {
     public static void main(String args[]) {
         Complex1 a = new Complex1(1.0, 2.0);// 1+2i
         Complex1 b = new Complex1(3.0, 4.0);// 3+4i

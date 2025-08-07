@@ -16,7 +16,7 @@ class PrimeChecker {
     }
 }
 
-public class MaximumPrimeNumber {
+class MaximumPrimeNumber {
     private final PrimeChecker primeChecker;
     private final List<Integer> numbers;
     private int maxPrime;
@@ -38,7 +38,9 @@ public class MaximumPrimeNumber {
     public int getResult() {
         return this.maxPrime;
     }
+}
 
+public class Lab2no9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Integer> inputNumbers = new ArrayList<>();
@@ -49,6 +51,7 @@ public class MaximumPrimeNumber {
             }
             inputNumbers.add(num);
         }
+
         MaximumPrimeNumber finder = new MaximumPrimeNumber(inputNumbers);
         finder.findMaximumPrime();
         System.out.println(finder.getResult());

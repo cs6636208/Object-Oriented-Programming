@@ -50,7 +50,7 @@ class LinearEquation {
     }
 }
 
-public class LinearEquation1 {
+public class Lab2no5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a, b, c, d, e, f: ");
