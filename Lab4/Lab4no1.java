@@ -1,4 +1,4 @@
-public class MinMaxDemo {
+public class Lab4no1 {
     public static void main(String[] args) {
         int a[] = { -128, 65, -235, 99, 0, 26 };
         int minIndex = findMinIdx(a);

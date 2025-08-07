@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class AscendSortFreq {
+public class Lab4no4 {
     private double[] A;
 
-    public AscendSortFreq(double[] A) {
+    public Lab4no4(double[] A) {
         this.A = A;
     }
 
@@ -38,7 +38,7 @@ public class AscendSortFreq {
         for (int i = 0; i < n; i++) {
             data[i] = scanner.nextDouble();
         }
-        AscendSortFreq sorter = new AscendSortFreq(data);
+        Lab4no4 sorter = new Lab4no4(data);
         double[] sorted = sorter.AscendSort(data);
         System.out.println("" + Arrays.toString(sorted));
         sorter.SortCommuFreq(sorted);

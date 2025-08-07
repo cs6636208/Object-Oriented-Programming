@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MatrixMultiplication {
+public class Lab4no5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
