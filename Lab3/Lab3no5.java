@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class RoachPopulation1 {
+public class Lab3no5 {
     private int population;
 
-    public RoachPopulation1(int initialSize) {
+    public Lab3no5(int initialSize) {
         this.population = initialSize;
     }
 
@@ -24,7 +24,7 @@ public class RoachPopulation1 {
         Scanner scanner = new Scanner(System.in);
         int initialPopulation = scanner.nextInt();
         int cycles = scanner.nextInt();
-        RoachPopulation1 kitchen = new RoachPopulation1(initialPopulation);
+        Lab3no5 kitchen = new Lab3no5(initialPopulation);
         for (int i = 0; i < cycles; i++) {
             kitchen.waitCycles();
             kitchen.spray();

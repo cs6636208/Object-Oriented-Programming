@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MyTriangle1 {
+public class Lab3no7 {
     public boolean isValid(double side1, double side2, double side3) {
         return (side1 + side2 > side3);
     }
@@ -12,7 +12,7 @@ public class MyTriangle1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        MyTriangle1 triangle1 = new MyTriangle1();
+        Lab3no7 triangle1 = new Lab3no7();
         double side1 = scanner.nextDouble();
         double side2 = scanner.nextDouble();
         double side3 = scanner.nextDouble();

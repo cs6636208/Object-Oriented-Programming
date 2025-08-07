@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Light {
+public class Lab3no10 {
     private int count = 0;
     private int[][] N;
     private int[] M;
     public Scanner scanner = new Scanner(System.in);
 
-    public Light(int n, int m) {
+    public Lab3no10(int n, int m) {
         this.N = new int[n][2];
         this.M = new int[m];
     }
@@ -43,7 +43,7 @@ public class Light {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        Light light = new Light(n, m);
+        Lab3no10 light = new Lab3no10(n, m);
         light.AddPlane();
         light.AddLight();
         light.CountNumberOfLight();
