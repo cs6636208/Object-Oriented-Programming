@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Star {
+public class Lab5no2 {
     public static void addStars(ArrayList<String> listword) {
         ArrayList<String> list = new ArrayList<>();
         for (int i = 0; i < listword.size(); i++) {

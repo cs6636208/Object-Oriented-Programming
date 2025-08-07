@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SortMergeList {
+public class Lab5no3 {
 
     public static void intersect(ArrayList<Integer> list1, ArrayList<Integer> list2) {
         for (int i = 0; i < list1.size(); i++) {

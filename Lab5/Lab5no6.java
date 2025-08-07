@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Algorithms1 {
+public class Lab5no6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int row = input.nextInt();

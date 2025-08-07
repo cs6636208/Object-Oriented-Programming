@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
-public class Employee {
+public class Lab5no5 {
     private String firstname;
     private String lastname;
     private String id;
     private double salary;
 
-    public Employee(String firstname, String lastname, String id, double salary) {
+    public Lab5no5(String firstname, String lastname, String id, double salary) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.id = id;
@@ -25,18 +25,18 @@ public class Employee {
         }
     }
 
-    public static void printEmp(ArrayList<Employee> a, int year) {
+    public static void printEmp(ArrayList<Lab5no5> a, int year) {
         System.out.printf("%s %s %s %s\n", "First name", "Last name", "Earning", "Bonus");
-        for (Employee e : a) {
+        for (Lab5no5 e : a) {
             System.out.printf("%s %s %.2f %.2f\n", e.firstname, e.lastname, e.earning(), e.bonus(year));
         }
     }
 
     public static void main(String[] args) {
-        ArrayList<Employee> arrayEarn = new ArrayList<>();
-        Employee e1 = new Employee("Thongthat", "Lamthong", "001", 30000);
-        Employee e2 = new Employee("Jame", "Bonn", "002", 40000);
-        Employee e3 = new Employee("Lisa", "BlackPink", "003", 50000);
+        ArrayList<Lab5no5> arrayEarn = new ArrayList<>();
+        Lab5no5 e1 = new Lab5no5("Thongthat", "Lamthong", "001", 30000);
+        Lab5no5 e2 = new Lab5no5("Jame", "Bonn", "002", 40000);
+        Lab5no5 e3 = new Lab5no5("Lisa", "BlackPink", "003", 50000);
 
         arrayEarn.add(e1);
         arrayEarn.add(e2);
@@ -44,6 +44,6 @@ public class Employee {
 
         int workingYears = 6;
 
-        Employee.printEmp(arrayEarn, workingYears);
+        Lab5no5.printEmp(arrayEarn, workingYears);
     }
 }
