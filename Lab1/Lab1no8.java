@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class RecurrenceSequence {
+public class Lab1no8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please input n, a0 and a1: ");
@@ -15,7 +15,7 @@ public class RecurrenceSequence {
             a[1] = a1;
         }
         for (int k = 2; k <= n; k++) {
-            a[k] = k * k * a[k - 1] - a[k - 2] + (int)Math.pow(3, k);
+            a[k] = k * k * a[k - 1] - a[k - 2] + (int) Math.pow(3, k);
         }
         System.out.print("Output is:");
         for (int i = 0; i <= n; i++) {
@@ -24,4 +24,3 @@ public class RecurrenceSequence {
         scanner.close();
     }
 }
-

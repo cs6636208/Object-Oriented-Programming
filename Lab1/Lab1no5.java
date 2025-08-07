@@ -1,6 +1,6 @@
 // ข้อ 5
 
-public class Test2 {
+public class Lab1no5 {
     public static void main(String[] args) {
         char x = 'a';
         char y = 'c';

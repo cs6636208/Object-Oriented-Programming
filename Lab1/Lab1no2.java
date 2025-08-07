@@ -1,14 +1,15 @@
+
 // ข้อ 2
 import java.util.Scanner;
 
-public class CompoundValue {
+public class Lab1no2 {
     public static void main(String[] args) {
-       Scanner input = new Scanner(System.in);
-       System.out.print("Enter the monthly saving amount: ");
-       double monthlySavingAmount = input.nextDouble();
-       double annualInterestRate = 0.05; 
-       double monthlyInterestRate = annualInterestRate / 12;
-       double accountValue = 0; 
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the monthly saving amount: ");
+        double monthlySavingAmount = input.nextDouble();
+        double annualInterestRate = 0.05;
+        double monthlyInterestRate = annualInterestRate / 12;
+        double accountValue = 0;
         for (int month = 1; month <= 6; month++) {
             accountValue = (monthlySavingAmount + accountValue) * (1 + monthlyInterestRate);
         }

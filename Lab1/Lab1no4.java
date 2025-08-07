@@ -1,7 +1,8 @@
+
 // ข้อ 4
 import java.util.Scanner;
 
-public class interestRate {
+public class Lab1no4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter balance and interest rate (e.g., 3 for 3%):");

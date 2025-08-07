@@ -1,7 +1,8 @@
+
 // // ข้อ 1
 import java.util.Scanner;
 
-public class TemperatureC {
+public class Lab1no1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter temperature in Farenheit : ");

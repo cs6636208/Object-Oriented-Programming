@@ -2,7 +2,7 @@
 // ข้อ 7
 import java.util.Scanner;
 
-public class CalculateFunction {
+public class Lab1no7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please input x, n: ");
