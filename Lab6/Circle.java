@@ -1,5 +1,3 @@
-package Lab6;
-
 abstract class GeometricObject {
     private String color = "white";
     private boolean filled;
@@ -101,11 +99,11 @@ public class Circle extends GeometricObject {
     }
 
     public static void main(String[] args) {
-        Circle c = new Circle(5.0, "blue", true);
-        System.out.println(c.toString());
-        System.out.println("Area: " + c.findArea());
-        System.out.println("Perimeter: " + c.findPerimeter());
-        System.out.println("Color: " + c.getColor());
-        System.out.println("Filled: " + c.isFilled());
+        Circle circle = new Circle(5.0, "blue", true);
+        System.out.println(circle.toString());
+        System.out.println("Area: " + circle.findArea());
+        System.out.println("Perimeter: " + circle.findPerimeter());
+        System.out.println("Color: " + circle.getColor());
+        System.out.println("Filled: " + circle.isFilled());
     }
 }
