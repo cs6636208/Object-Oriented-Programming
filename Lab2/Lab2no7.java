@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Lab2no7 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -26,11 +28,11 @@ public class Lab2no7 {
         double r2Top = y2 + h2 / 2;
         double r2Btm = y2 - h2 / 2;
 
-        if (r2Lft >= r1Lft && r2Rgt <= r1Rgt &&
-                r2Top <= r1Top && r2Btm >= r1Btm) {
+        if (r2Lft >= r1Lft && r2Rgt <= r1Rgt
+                && r2Top <= r1Top && r2Btm >= r1Btm) {
             System.out.println("r2 is inside r1");
-        } else if (r2Rgt > r1Lft && r2Lft < r1Rgt &&
-                r2Top > r1Btm && r2Btm < r1Top) {
+        } else if (r2Rgt > r1Lft && r2Lft < r1Rgt
+                && r2Top > r1Btm && r2Btm < r1Top) {
             System.out.println("r2 overlaps r1");
         } else {
             System.out.println("r2 doesn't overlap r1");
