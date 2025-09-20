@@ -1,4 +1,3 @@
-package Lab8;
 
 import java.util.ArrayList;
 
@@ -31,5 +30,6 @@ public class Final {
                 System.out.printf("First Name %s Last Name %s Earning %.2f Bonus %.2f\n", emp.getFirstname(), emp.getLastname(), emp.earning(), emp.bonus(6));
             }
         }
+        System.out.println();
     }
 }
